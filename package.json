@@ -1,0 +1,27 @@
+{
+  "name": "@metarhia/prettier-config",
+  "version": "0.0.0",
+  "description": "Prettier config for Metarhia projects",
+  "main": "config.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metarhia/prettier-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "metarhia"
+  ],
+  "author": "Mykola Bilochub <nbelochub@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metarhia/prettier-config/issues"
+  },
+  "homepage": "https://github.com/metarhia/prettier-config#readme",
+  "peerDependencies": {
+    "prettier": "^1.17"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
