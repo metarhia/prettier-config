@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "Prettier config for Metarhia projects",
   "main": "config.json",
+  "scripts": {
+    "test": "prettier --config config.json -c *.json *.yml",
+    "fmt": "prettier --config config.json --write *.json *.yml"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/metarhia/prettier-config.git"
@@ -23,5 +27,8 @@
   },
   "engines": {
     "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
   }
 }
